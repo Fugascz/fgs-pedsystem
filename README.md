@@ -1,4 +1,4 @@
-# DTRP Ped Menu
+# ProjectOneRP Ped Menu
 
 A FiveM resource that lets authorized players change their ped model and, when using a dog ped, play configured dog animations.
 
@@ -7,22 +7,22 @@ A FiveM resource that lets authorized players change their ped model and, when u
 - [ESX Legacy](https://github.com/esx-framework/esx_core), with the `es_extended` resource
 - `fgs-notify`
 
-Both dependencies must be installed and started before `dtrp_pedmenu`.
+Both dependencies must be installed and started before `fgs-pedsystem`.
 
 ## Installation
 
-1. Copy `dtrp_pedmenu` into your server resources directory.
+1. Copy `fgs-pedsystem` into your server resources directory.
 2. Ensure the dependencies and this resource in your `server.cfg`, in this order:
 
    ```cfg
    ensure es_extended
    ensure fgs-notify
-   ensure dtrp_pedmenu
+   ensure fgs-pedsystem
    ```
 
 3. Configure permitted players and their available ped categories in `users.lua`.
 4. Configure ped models, dog animations, and the optional key mapping in `config.lua`.
-5. Restart the server or run `ensure dtrp_pedmenu` in the server console.
+5. Restart the server or run `ensure fgs-pedsystem` in the server console.
 
 ## Usage
 
